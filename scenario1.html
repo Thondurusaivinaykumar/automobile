@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="scenario1.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <p>I am T.sai vinay kumar,I am from sathya sai(D) AndhraPradesh, I completed my gradutaion in srinivasa ramanujan institue of technology stream of civil engineering pasesed in 2022.
+            Outside of work, I’m an avid traveler and enjoy photography. I’m always on the lookout for new adventures and ways to capture the world around me. My goal is to continue leveraging my technical skills to create impactful solutions and to keep learning and growing in the ever-evolving tech landscape.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h1>Skills</h1>
+        <p>Java.</p>
+        <p>Mysql.</p>
+        <p>Msword.</p>
+        <p>Msexcel.</p>
+    </section>
+
+    <section id="projects">
+        <h1 id="head">Projects</h1>
+        <section id="projects">
+            <div class="project" onclick="showProjectDetails('Project 1: A detailed description of Project 1. This could include technologies used, challenges faced, and outcomes.')">
+                <h2>Project 1</h2>
+                <h3>Employee Management System (Java + SQL)</h3>
+                <h4>Objective: Build a console-based application that allows users to manage employee records.</h4>
+         Features:
+	     Add Employee: Accept employee details (ID, name, salary) and store them in an SQL database.
+	     View Employees: Display a list of all employees with their details.
+	     Update Employee: Update an existing employee's information.
+	     Delete Employee: Remove an employee from the database.
+	     Search Employee: Find an employee by ID.
+        Tools & Technologies:
+	   Java (OOPs, Arrays, String Handling)
+	   SQL (CRUD operations, Joins, Subqueries)
+       Expected Output: A functioning console application that interacts with an SQL database to manage employee records.
+
+
+            </div>
+            <div class="project" onclick="showProjectDetails('Project 2: A detailed description of Project 2. This could include technologies used, challenges faced, and outcomes.')">
+                <h2>Project 2</h2>
+                <h3>Library Management System (Java + MongoDB)</h3>
+           <h4>Objective: Create a system that manages book records using Java and MongoDB.</h4>
+    Features:
+	Add Book: Input book details (ID, title, author, genre) and save them in MongoDB.
+	View Books: Display all books in the library.
+	Update Book: Modify details of an existing book.
+	Delete Book: Remove a book from the library.
+	Search Book: Find a book by title or author.
+    Tools & Technologies:
+	Java (Collections, OOPs)
+	MongoDB (CRUD operations, Data Modeling)
+    Expected Output: A Java application that uses MongoDB to store and manage library book records.
+  
+
+            </div>
+            <div class="project" onclick="showProjectDetails('Project 3: A detailed description of Project 3. This could include technologies used, challenges faced, and outcomes.')">
+                <h2>Project 3</h2>
+                <h3>E-Commerce Product Catalog (Spring Boot + Thymeleaf)</h3>
+                <h4>Objective:Develop a web application that displays a product catalog for an e-commerce site.</h4>
+                Features:
+                	Home Page: Display a list of products with details such as name, price, and description.
+                	Product Details Page: Show more detailed information about a selected product.
+                	Add Product: Allow admin users to add new products.
+                	Edit Product: Enable admin users to update product details.
+                	Delete Product: Admin users can remove products from the catalog.
+                Tools & Technologies:
+                	Spring Boot (REST, Thymeleaf)
+                	SQL/MongoDB (Database for storing product information)
+                Expected Output: A web application where users can view products, and admin users can manage the product catalog.
+                
+            </div>
+        
+
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>+919347290928</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 T.sai vinay kumar</p>
+        <p>thondurusaivinaykumar@gmail.com</p>
+    </footer>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <p id="popup-text"></p>
+        </div>
+    </div>
+
+    <script src="scenario1.js"></script>
+</body>
+</html>
